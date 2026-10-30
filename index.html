@@ -363,7 +363,8 @@ footer {
           <h3>Software Engineer Intern</h3>
           <p class="team">Insight cloud diagnostics</p>
           <ul>
-            <li>Engineered a <strong>natural-language diagnostics backend</strong> in Python that converts engineer requests into validated operations against NETGEAR Insight cloud APIs for routers and switches.</li>
+            <li>Built an <strong>AI-powered network diagnostics agent</strong>: a Python backend that gives engineers conversational control of routers and switches through NETGEAR Insight cloud APIs.</li>
+            <li>Paired LLM reasoning with <strong>structured API validation</strong> so every network operation executes safely and deterministically, and malformed or unsafe commands are rejected before they run.</li>
             <li>Built concurrent REST and JSON-RPC clients with <strong>asyncio and httpx</strong>, replacing sequential device polling with parallel queries across the fleet.</li>
             <li>Designed a secure device-communication layer with <strong>dynamic API discovery</strong>, session-based authentication, and TLS, keeping endpoints and credentials out of the tooling.</li>
             <li>Deployed <strong>retrieval-augmented generation on locally hosted LLMs</strong> so diagnostics stay on-premises and customer network data never leaves the environment.</li>
@@ -401,24 +402,33 @@ footer {
       <div class="eyebrow">Selected work</div>
     </div>
     <div class="projects">
-      <a class="proj" href="https://github.com/suchturbo" target="_blank" rel="noopener">
-        <div class="kind">AI · Networking</div>
-        <div>
-          <h3>Network Diagnostics Agent</h3>
-          <p>An agent backend that controls network devices through conversation, with a validation layer that rejects malformed or unsafe commands before they run.</p>
-          <div class="chips"><span class="chip">Python</span><span class="chip">LLM tooling</span><span class="chip">REST</span></div>
-        </div>
-        <div class="arrow" aria-hidden="true">↗</div>
-      </a>
-      <a class="proj" href="https://github.com/suchturbo" target="_blank" rel="noopener">
+      <a class="proj" href="https://github.com/suchturbo/Object-detection-code" target="_blank" rel="noopener">
         <div class="kind">Embedded vision</div>
         <div>
           <h3>Object Detecting Camera</h3>
-          <p>Real-time object detection on constrained embedded hardware at roughly 99% accuracy on common objects, after quantizing the model to fit the device.</p>
+          <p>A real-time object detection system built with Python and TensorFlow Lite on embedded Linux hardware, reaching about 99% accuracy on common objects with a model optimized for constrained compute.</p>
           <div class="chips"><span class="chip">Python</span><span class="chip">TensorFlow Lite</span><span class="chip">Embedded Linux</span></div>
         </div>
         <div class="arrow" aria-hidden="true">↗</div>
       </a>
+      <a class="proj" href="https://github.com/suchturbo/self-driving-robot" target="_blank" rel="noopener">
+        <div class="kind">Robotics</div>
+        <div>
+          <h3>Autonomous Robot</h3>
+          <p>C++ control logic for ultrasonic sensor-based navigation on Arduino hardware, which completed timed maze traversal challenges during an intensive engineering program.</p>
+          <div class="chips"><span class="chip">C++</span><span class="chip">Arduino</span><span class="chip">Ultrasonic sensors</span></div>
+        </div>
+        <div class="arrow" aria-hidden="true">↗</div>
+      </a>
+      <div class="proj">
+        <div class="kind">Robotics · Fabrication</div>
+        <div>
+          <h3>Claw Robot</h3>
+          <p>A robotic system for picking up and moving objects, with a steel frame for structural rigidity, an integrated off-the-shelf plastic claw for gripping, and embedded code tying the mechanics together.</p>
+          <div class="chips"><span class="chip">Embedded programming</span><span class="chip">Steel fabrication</span><span class="chip">Mechanical design</span></div>
+        </div>
+        <div class="arrow" aria-hidden="true"></div>
+      </div>
     </div>
   </section>
 
