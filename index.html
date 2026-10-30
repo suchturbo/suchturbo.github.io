@@ -7,7 +7,7 @@
 <title>Shuchir Harsha</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&display=swap">
 <style>
 /* Layout: one dark page, a fixed network-graph field behind it, a left rail of section ticks,
    and a timeline whose dates sit in a gutter column beside the cards. */
@@ -22,9 +22,9 @@
   --accent: #6f9dff;
   --accent-soft: rgba(111, 157, 255, 0.14);
   --live: #49d3a6;
-  --display: "Bricolage Grotesque", "Helvetica Neue", Arial, sans-serif;
-  --body: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
-  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --display: "Geist", "Helvetica Neue", Arial, sans-serif;
+  --body: "Geist", "Helvetica Neue", Arial, sans-serif;
+  --mono: "Geist Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
   color-scheme: dark;
 }
 * { box-sizing: border-box; }
@@ -363,10 +363,10 @@ footer {
           <h3>Software Engineer Intern</h3>
           <p class="team">Insight cloud diagnostics</p>
           <ul>
-            <li>Built <strong>Python backend services</strong> that turn plain-English requests into validated operations against NETGEAR Insight cloud APIs, used internally for router and switch diagnostics.</li>
-            <li>Wrote async REST and JSON-RPC clients with <strong>asyncio and httpx</strong> so the tools query a fleet of devices concurrently instead of one at a time.</li>
-            <li>Handled device communication with dynamic API discovery, session-based auth, and TLS, keeping endpoints and credentials out of the tooling.</li>
-            <li>Ran <strong>retrieval-augmented generation</strong> on local LLMs so diagnostics stayed on-premises and customer network data never left the environment.</li>
+            <li>Engineered a <strong>natural-language diagnostics backend</strong> in Python that converts engineer requests into validated operations against NETGEAR Insight cloud APIs for routers and switches.</li>
+            <li>Built concurrent REST and JSON-RPC clients with <strong>asyncio and httpx</strong>, replacing sequential device polling with parallel queries across the fleet.</li>
+            <li>Designed a secure device-communication layer with <strong>dynamic API discovery</strong>, session-based authentication, and TLS, keeping endpoints and credentials out of the tooling.</li>
+            <li>Deployed <strong>retrieval-augmented generation on locally hosted LLMs</strong> so diagnostics stay on-premises and customer network data never leaves the environment.</li>
           </ul>
           <div class="chips"><span class="chip">Python</span><span class="chip">asyncio</span><span class="chip">httpx</span><span class="chip">JSON-RPC</span><span class="chip">RAG</span></div>
         </div>
@@ -385,9 +385,9 @@ footer {
           <h3>Embedded Software Intern</h3>
           <p class="team">Gateway software</p>
           <ul>
-            <li>Modified <strong>Android 12</strong> to run a Debian 11 environment with proot and VNC so the team could build gateway software with normal Linux tooling instead of the vendor Android stack.</li>
-            <li>Wrote <strong>UART and I2C</strong> code for flashing microcontrollers and driving peripherals, including real-time 7-segment displays.</li>
-            <li>Set up embedded Linux build and test workflows for Arduino and Raspberry Pi to shorten firmware iteration.</li>
+            <li>Ported a full <strong>Debian 11</strong> environment onto <strong>Android 12</strong> with proot and VNC, letting the team build gateway software with standard Linux tooling instead of the vendor's Android stack.</li>
+            <li>Developed <strong>UART and I2C</strong> firmware code for microcontroller flashing and real-time peripheral control, including 7-segment displays.</li>
+            <li>Built embedded Linux <strong>build-and-test workflows</strong> for Arduino and Raspberry Pi, shortening firmware iteration cycles.</li>
           </ul>
           <div class="chips"><span class="chip">Embedded Linux</span><span class="chip">C++</span><span class="chip">UART</span><span class="chip">I2C</span><span class="chip">Raspberry Pi</span></div>
         </div>
